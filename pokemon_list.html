@@ -1,0 +1,117 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pokemon List</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f0f0f0;
+        }
+        .pokemon-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+            gap: 20px;
+            padding: 20px;
+        }
+        .pokemon-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .pokemon-card img {
+            width: 120px;
+            height: 120px;
+        }
+        .pokemon-card h2 {
+            margin: 10px 0;
+            text-transform: capitalize;
+            color: #333;
+        }
+        .type-tag {
+            display: inline-block;
+            padding: 5px 10px;
+            margin: 2px;
+            border-radius: 15px;
+            background-color: #4CAF50;
+            color: white;
+            font-size: 0.8em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Pokemon List</h1>
+    <div class="pokemon-grid">
+    
+        <div class="pokemon-card">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/1.png" alt="bulbasaur">
+            <h2>bulbasaur</h2>
+            <p>Height: 0.7m</p>
+            <p>Weight: 6.9kg</p>
+            <div>
+                
+                    <span class="type-tag">grass</span>
+                
+                    <span class="type-tag">poison</span>
+                
+            </div>
+        </div>
+    
+        <div class="pokemon-card">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/2.png" alt="ivysaur">
+            <h2>ivysaur</h2>
+            <p>Height: 1.0m</p>
+            <p>Weight: 13.0kg</p>
+            <div>
+                
+                    <span class="type-tag">grass</span>
+                
+                    <span class="type-tag">poison</span>
+                
+            </div>
+        </div>
+    
+        <div class="pokemon-card">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/3.png" alt="venusaur">
+            <h2>venusaur</h2>
+            <p>Height: 2.0m</p>
+            <p>Weight: 100.0kg</p>
+            <div>
+                
+                    <span class="type-tag">grass</span>
+                
+                    <span class="type-tag">poison</span>
+                
+            </div>
+        </div>
+    
+        <div class="pokemon-card">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/4.png" alt="charmander">
+            <h2>charmander</h2>
+            <p>Height: 0.6m</p>
+            <p>Weight: 8.5kg</p>
+            <div>
+                
+                    <span class="type-tag">fire</span>
+                
+            </div>
+        </div>
+    
+        <div class="pokemon-card">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/5.png" alt="charmeleon">
+            <h2>charmeleon</h2>
+            <p>Height: 1.1m</p>
+            <p>Weight: 19.0kg</p>
+            <div>
+                
+                    <span class="type-tag">fire</span>
+                
+            </div>
+        </div>
+    
+    </div>
+</body>
+</html>
